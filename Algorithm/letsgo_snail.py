@@ -1,7 +1,7 @@
 import sys
 N = int(sys.stdin.readline())
 directions = list(sys.stdin.readline().strip().split(' '))
-position = [1, 1]
+position = [1,1]
 for d in directions:
     if d == 'U':
         dx = -1
